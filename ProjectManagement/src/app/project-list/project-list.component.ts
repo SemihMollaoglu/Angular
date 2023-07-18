@@ -9,6 +9,7 @@ import { projects } from '../models/mocks/project.mock';
 })
 export class ProjectListComponent implements OnInit {
   projects: Project[];
+  searchKey: string;
 
   ngOnInit(): void {
     this.projects = projects;

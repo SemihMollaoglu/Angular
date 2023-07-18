@@ -1,8 +1,18 @@
-<p>project-list works!</p>
-<div class="container">
+<div class="container" *ngIf="projects; else notFound">
+    <div class="row m-2">
+        <div class="col-12">
+            <input type="text" placeholder="Aranacak proje" class="form-control" [(ngModel)]="searchKey" />
+        </div>
+    </div>
     <div class="row">
-        <div class="col-12" *ngFor="let project of projects">
+        <div class="col-12 m-3" *ngFor="let project of projects | search: searchKey">
             <app-project [currentProject]="project"></app-project>
         </div>
     </div>
 </div>
+
+<ng-template #notFound>
+    <div class="alert alert-danger">
+        <p>Projeler API den alınamadı.</p>
+    </div>
+</ng-template>
