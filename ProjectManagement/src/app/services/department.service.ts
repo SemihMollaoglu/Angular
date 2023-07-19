@@ -11,7 +11,7 @@ export class DepartmentService {
   constructor(private httpClient: HttpClient) { }
 
   getDepartments(): Observable<Department[]> {
-    return this.httpClient.get<Department[]>("Adres").pipe(catchError((err: HttpErrorResponse) => {
+    return this.httpClient.get<Department[]>("https://localhost:7125/api/Departments").pipe(catchError((err: HttpErrorResponse) => {
       console.log(err.message);
       return throwError(() => new Error(err.statusText));
     }))
