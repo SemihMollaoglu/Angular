@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\turka\\source\\repos\\Kurumsal\\akbank\\angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj": {}
+    "C:\\Users\\AycaM\\OneDrive\\Masaüstü\\Projects\\Angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\turka\\source\\repos\\Kurumsal\\akbank\\angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj": {
+    "C:\\Users\\AycaM\\OneDrive\\Masaüstü\\Projects\\Angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\akbank\\angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\AycaM\\OneDrive\\Masaüstü\\Projects\\Angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj",
         "projectName": "ProjectManagement.API",
-        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\akbank\\angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj",
-        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\akbank\\angular\\ProjectManagement.API\\ProjectManagement.API\\obj\\",
+        "projectPath": "C:\\Users\\AycaM\\OneDrive\\Masaüstü\\Projects\\Angular\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj",
+        "packagesPath": "C:\\Users\\AycaM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AycaM\\OneDrive\\Masaüstü\\Projects\\Angular\\ProjectManagement.API\\ProjectManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\AycaM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
