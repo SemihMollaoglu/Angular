@@ -1,3 +1,4 @@
 <div class="list-group">
-    <a class="list-group-item" *ngFor="let department of departments"> {{department.name}}</a>
+    <a routerLink="projeler/kategori/{{department.id}}" class="list-group-item" *ngFor="let department of departments">
+        {{department.name}}</a>
 </div>
